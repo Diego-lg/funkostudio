@@ -1,9 +1,10 @@
 import React, { useState, useCallback, memo, useEffect, useRef } from "react";
 import { DivideIcon as LucideIcon } from "lucide-react";
-import ModelPreview from "../3d/ModelPreview";
+import MobileOptimizedModel from "../3d/MobileOptimizedModel";
 import { ModelModal } from "../ui/ModelModal";
 import { useGLTF } from "@react-three/drei";
 import { useInView } from "react-intersection-observer";
+import { useIsMobile } from "../../hooks/useIsMobile";
 
 export interface Model {
   id: number;
@@ -12,6 +13,7 @@ export interface Model {
   description: string;
   complexity: "Low" | "Medium" | "High";
   modelPath: string;
+  imagePath?: string;
   scale?: number;
 }
 
@@ -24,6 +26,7 @@ interface ModelCardProps {
 const ModelCard = memo(({ model, index, onClick }: ModelCardProps) => {
   const Icon = model.icon;
   const mouseDownRef = useRef<{ x: number; y: number } | null>(null);
+  const isMobile = useIsMobile();
 
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -65,14 +68,21 @@ const ModelCard = memo(({ model, index, onClick }: ModelCardProps) => {
         animationDelay: `${index * 100}ms`,
         opacity: 0,
       }}
-      onMouseDown={handleMouseDown}
-      onMouseUp={handleMouseUp}
+      onClick={isMobile ? () => onClick(model) : undefined}
+      onMouseDown={!isMobile ? handleMouseDown : undefined}
+      onMouseUp={!isMobile ? handleMouseUp : undefined}
     >
       <div className="relative z-0 flex flex-col items-center text-center space-y-4 pb-10">
         <div className="relative w-full h-52 rounded-2xl overflow-hidden">
           {model.modelPath ? (
             <div className="w-full h-full bg-background">
-              {inView && <ModelPreview modelPath={model.modelPath} />}
+              {inView && (
+                <MobileOptimizedModel
+                  modelPath={model.modelPath}
+                  imagePath={model.imagePath}
+                  scale={model.scale}
+                />
+              )}
             </div>
           ) : (
             <div className="w-full h-full flex items-center justify-center bg-background">

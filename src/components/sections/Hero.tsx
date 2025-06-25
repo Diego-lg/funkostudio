@@ -25,7 +25,10 @@ const Hero: React.FC = () => {
     <section id="hero" className="relative h-screen">
       <div className="absolute inset-0 z-0 overflow-hidden">
         {isMobile ? (
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 to-purple-900" />
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: "url(/background_2.jpg)" }}
+          />
         ) : (
           <SimplexSphere animate={modelReady} />
         )}

@@ -1,5 +1,5 @@
 import { memo } from "react";
-import ModelPreview from "../3d/ModelPreview";
+import MobileOptimizedModel from "../3d/MobileOptimizedModel";
 import { Model } from "./ModelGrid";
 import { models as allModels } from "../models_data/models";
 import { GalleryImage } from "../ui/ImageGallery";
@@ -11,6 +11,7 @@ export interface Category {
   title: string;
   description: string;
   modelPath: string;
+  imagePath: string;
   detailModels: Model[];
   imageGallery: GalleryImage[];
 }
@@ -42,7 +43,10 @@ const CategoryCard = memo(({ category, index, onClick }: CategoryCardProps) => {
       <div className="relative z-0 flex flex-col items-center text-center space-y-4 pb-10">
         <div className="relative w-full h-52 rounded-2xl overflow-hidden">
           <div className="w-full h-full bg-background">
-            <ModelPreview modelPath={category.modelPath} />
+            <MobileOptimizedModel
+              modelPath={category.modelPath}
+              imagePath={category.imagePath}
+            />
           </div>
         </div>
 
@@ -77,6 +81,7 @@ export function CategoriesGrid({
       title: t("categories.custom_funkos.title"),
       description: t("categories.custom_funkos.description"),
       modelPath: "/mama_chiki.glb",
+      imagePath: "../src/assets/images/sample_1.png",
       detailModels: [allModels[2], allModels[9], allModels[3]],
       imageGallery: [
         {
@@ -91,6 +96,7 @@ export function CategoriesGrid({
       title: t("categories.anime_figures.title"),
       description: t("categories.anime_figures.description"),
       modelPath: "/FMA_alphonse.glb",
+      imagePath: "/real_alphonse.png",
       detailModels: [allModels[0], allModels[6], allModels[10]],
       imageGallery: [
         {
@@ -105,6 +111,7 @@ export function CategoriesGrid({
       title: t("categories.pets.title"),
       description: t("categories.pets.description"),
       modelPath: "/chiki_funko.glb",
+      imagePath: "/angelical_samoyed.png",
       detailModels: [allModels[1], allModels[2], allModels[11]],
       imageGallery: [
         {
@@ -119,11 +126,12 @@ export function CategoriesGrid({
       title: t("categories.and_more.title"),
       description: t("categories.and_more.description"),
       modelPath: "/halflife.glb",
+      imagePath: "/real_horror_dragon.png",
       detailModels: [allModels[13], allModels[4], allModels[12]],
       imageGallery: [
         {
-          src: "horror_dragon.png",
-          src2: "real_horror_dragon.png",
+          src: "/horror_dragon.png",
+          src2: "/real_horror_dragon.png",
           alt: "Miscellaneous Model 1",
         },
       ],

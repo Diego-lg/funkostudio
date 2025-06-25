@@ -33,6 +33,7 @@ export const models: Model[] = [
     description: "Custom Funko Pop character",
     complexity: "Medium",
     modelPath: "/chiki_funko.glb",
+    imagePath: "/real_chiki.png",
     scale: 3.5,
   },
   {
@@ -42,6 +43,7 @@ export const models: Model[] = [
     description: "Animated version of Chiki character",
     complexity: "High",
     modelPath: "/mama_chiki.glb",
+    imagePath: "/mom_carryingdog.png",
     scale: 4,
   },
   {
@@ -78,6 +80,7 @@ export const models: Model[] = [
     description: "Fullmetal Alchemist armored hero.",
     complexity: "High",
     modelPath: "/FMA_alphonse.glb",
+    imagePath: "/FMA_alphonse.png",
     scale: 4,
   },
   {
@@ -122,6 +125,7 @@ export const models: Model[] = [
     description: "Luffy as a Samoyed dog.",
     complexity: "Medium",
     modelPath: "/samoyed_luffy.glb",
+    imagePath: "/angelical_samoyed.png",
     scale: 4,
   },
   {
@@ -131,6 +135,7 @@ export const models: Model[] = [
     description: "A terrifying dragon.",
     complexity: "High",
     modelPath: "/horror_dragon.glb",
+    imagePath: "/horror_dragon.png",
     scale: 3,
   },
   {
