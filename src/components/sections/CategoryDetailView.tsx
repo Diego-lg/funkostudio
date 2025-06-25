@@ -18,7 +18,7 @@ const CategoryDetailView: React.FC<CategoryDetailViewProps> = ({
   return (
     <div className="fixed inset-0 bg-background/90 backdrop-blur-md z-50 flex items-center justify-center p-4">
       <div
-        className="bg-background/80 border border-white/10 rounded-3xl w-full max-w-5xl h-full max-h-[95vh] p-8 shadow-2xl shadow-primary/10 relative flex flex-col"
+        className="bg-background/80 border border-white/10 rounded-3xl w-full max-w-5xl h-full max-h-[95vh] shadow-2xl shadow-primary/10 relative flex flex-col"
         style={{
           animation: "fadeIn 0.5s ease-out",
         }}

@@ -8,6 +8,7 @@ import ModelPlaceholder from "../3d/ModelPlaceholder";
 import { Code, Clipboard, Cpu, Lightbulb } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
+import { useIsMobile } from "../../hooks/useIsMobile";
 
 const getSkills = (t: TFunction) => [
   {
@@ -34,6 +35,7 @@ const getSkills = (t: TFunction) => [
 
 const About: React.FC = () => {
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -71,7 +73,7 @@ const About: React.FC = () => {
           {/* Left column - 3D model and image */}
           <div className="relative h-[400px] md:h-[500px]">
             <motion.div
-              initial={{ opacity: 0, x: -30 }}
+              initial={{ opacity: 0, x: isMobile ? 0 : -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.3 }}
@@ -85,7 +87,7 @@ const About: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-accent/30 to-transparent" />
             </motion.div>
             <motion.div
-              initial={{ opacity: 0, x: 30 }}
+              initial={{ opacity: 0, x: isMobile ? 0 : 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.5 }}
@@ -96,7 +98,7 @@ const About: React.FC = () => {
                 alt="3D Modeling Software"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/1 to-transparent" />
             </motion.div>
           </div>
 
