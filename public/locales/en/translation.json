@@ -1,0 +1,119 @@
+{
+  "welcome": "Welcome to my Portfolio",
+  "nav": {
+    "home": "Home",
+    "showcase": "Showcase",
+    "comparison": "Comparison",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your project and create something amazing together",
+    "form_title": "Let's create together",
+    "form_description": "Send what you want to print and we will make a 3D model and a sculpture for you.",
+    "location": "Location",
+    "address": "Av. Wawita 123. Lima, Peru.",
+    "email": "Email",
+    "phone": "Phone",
+    "send_message_title": "Send me a message",
+    "send_message_description": "Do you have a project in mind or just want to say hi? Feel free to send me a message.",
+    "send_message_button": "Send a Message"
+  },
+  "categories": {
+    "custom_funkos": {
+      "title": "Custom Funkos",
+      "description": "Your favorite characters as Funkos."
+    },
+    "anime_figures": {
+      "title": "Anime Figures",
+      "description": "High-quality figures from popular anime series."
+    },
+    "pets": {
+      "title": "Pets",
+      "description": "Immortalize your furry friends in 3D."
+    },
+    "and_more": {
+      "title": "And more...",
+      "description": "We can create any 3D model you can imagine."
+    }
+  },
+  "category_detail": {
+    "our_process": "Our Process",
+    "conception_title": "1. Conception",
+    "conception_description": "We work with you to bring your idea to life, starting with sketches and concepts.",
+    "modeling_title": "2. 3D Modeling",
+    "modeling_description": "Our artists create a detailed 3D model, which we refine based on your feedback.",
+    "production_title": "3. Production",
+    "production_description": "The final model is 3D printed with high-quality materials and hand-painted.",
+    "materials_quality_title": "Materials & Quality",
+    "materials_quality_p1": "We use only the best materials to ensure your custom figure is durable and looks amazing. Our high-resolution 3D printers capture every detail, and our artists use premium paints for a vibrant, lasting finish.",
+    "materials_quality_p2": "Each piece undergoes a rigorous quality check to guarantee it meets our high standards and your expectations.",
+    "ready_to_create_title": "Ready to create yours?",
+    "ready_to_create_description": "Let's start the journey of creating your unique custom figure. Contact us for a personalized quote and let's discuss your project.",
+    "request_quote_button": "Request a Quote"
+  },
+  "hero": {
+    "title1": "Custom Funko",
+    "title2": "3D Modeling Studio",
+    "subtitle": "Designing and creating custom Funko Pop figures with precision 3D modeling and printing.",
+    "showcase_button": "View Showcase",
+    "contact_button": "Contact Me",
+    "scroll_text": "Scroll Down"
+  },
+  "process": {
+    "section_title": "Design Process",
+    "section_subtitle": "My structured approach to creating exceptional industrial designs",
+    "approach_title": "My Approach",
+    "step1_title": "You Imagine It, We Print It",
+    "step1_description": "Have a character, product idea, or collectible in mind? We design fully custom 3D models from scratch.",
+    "step2_title": "From Digital to Physical",
+    "step2_description": "You send us your design, and we will make a 3D model and print it for you.",
+    "step3_title": "Personal Service, Tailored to You",
+    "step3_description": "You'll work directly with a designer - share your ideas, give feedback, and watch your concept evolve in 3D.",
+    "step4_title": "Testing & Refinement",
+    "step4_description": "We use professional-grade printers and materials for clean details, strong structure, and smooth finishes - with turnaround times you can count on.",
+    "step5_title": "Clear Pricing, No Surprises",
+    "step5_description": "Get a free quote up front - pricing based on design complexity, size, and material. We offer great value for one-of-a-kind pieces.",
+    "methods_title": "Design Methods & Tools",
+    "method1_title": "Custom 3D Modeling",
+    "method1_description": "Advanced custom 3d modeling techniques that inform design decisions and drive innovation.",
+    "method2_title": "High-Precision 3D Printing",
+    "method2_description": "Advanced high-precision 3d printing techniques that inform design decisions and drive innovation.",
+    "method3_title": "Client Collaboration & Revisions",
+    "method3_description": "Advanced client collaboration & revisions techniques that inform design decisions and drive innovation.",
+    "method4_title": "Material Selection & Finishing",
+    "method4_description": "Advanced material selection & finishing techniques that inform design decisions and drive innovation."
+  },
+  "about": {
+    "section_title": "About Us",
+    "section_subtitle": "Specializing in custom Funko Pop design and high-quality 3D modeling",
+    "bio_title": "Funko Artist & 3D Modeler with a passion for pop culture",
+    "bio_p1": "With years of experience in 3D modeling and character design, I specialize in creating custom Funko Pop figures that capture unique personalities and pop culture icons.",
+    "bio_p2": "My design process focuses on three key elements: capturing character essence, maintaining Funko's signature style, and ensuring print-ready quality. Each custom figure starts with concept art and ends with a polished 3D model.",
+    "bio_p3": "Having created figures for collectors, celebrities, and brands, I bring meticulous attention to detail to every project, ensuring each Funko Pop is both instantly recognizable and uniquely personal.",
+    "competencies_title": "Core Competencies",
+    "skill1_title": "Character Design",
+    "skill1_description": "Capturing unique personalities and pop culture icons in the distinctive Funko Pop style.",
+    "skill2_title": "3D Sculpting",
+    "skill2_description": "Digital sculpting with attention to Funko's signature proportions and stylized features.",
+    "skill3_title": "Texturing & Painting",
+    "skill3_description": "Applying textures and colors that match Funko's distinctive vinyl figure aesthetic.",
+    "skill4_title": "3D Printing",
+    "skill4_description": "Preparing models for high-quality 3D printing with optimal supports and orientation."
+  },
+  "comparison": {
+    "title": "From Sketch to Reality",
+    "subtitle": "Witness the transformation of a concept into a detailed 3D model",
+    "image_one_alt": "Image one",
+    "image_two_alt": "Image two"
+  },
+  "showcase": {
+    "title": "Creative Visions",
+    "subtitle": "Bringing ideas to life through detailed 3D modeling and design",
+    "image1_alt": "Futuristic 3D character model",
+    "image2_alt": "Designer sketching a 3D model on a tablet",
+    "image3_alt": "3D printer creating a complex object"
+  }
+}

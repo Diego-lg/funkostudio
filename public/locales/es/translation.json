@@ -1,0 +1,119 @@
+{
+  "welcome": "Bienvenido a mi Portafolio",
+  "nav": {
+    "home": "Inicio",
+    "showcase": "Galería",
+    "comparison": "Comparación",
+    "process": "Proceso",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Hablemos de tu proyecto y creemos algo increíble juntos",
+    "form_title": "Creemos juntos",
+    "form_description": "Envía lo que quieras imprimir y te haremos un modelo 3D y una escultura.",
+    "location": "Ubicación",
+    "address": "Av. Wawita 123. Lima, Perú.",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "send_message_title": "Envíame un mensaje",
+    "send_message_description": "¿Tienes un proyecto en mente o simplemente quieres saludar? No dudes en enviarme un mensaje.",
+    "send_message_button": "Enviar un Mensaje"
+  },
+  "categories": {
+    "custom_funkos": {
+      "title": "Funkos Personalizados",
+      "description": "Tus personajes favoritos como Funkos."
+    },
+    "anime_figures": {
+      "title": "Figuras de Anime",
+      "description": "Figuras de alta calidad de series de anime populares."
+    },
+    "pets": {
+      "title": "Mascotas",
+      "description": "Inmortaliza a tus amigos peludos en 3D."
+    },
+    "and_more": {
+      "title": "Y más...",
+      "description": "Podemos crear cualquier modelo 3D que puedas imaginar."
+    }
+  },
+  "category_detail": {
+    "our_process": "Nuestro Proceso",
+    "conception_title": "1. Concepción",
+    "conception_description": "Trabajamos contigo para dar vida a tu idea, comenzando con bocetos y conceptos.",
+    "modeling_title": "2. Modelado 3D",
+    "modeling_description": "Nuestros artistas crean un modelo 3D detallado, que refinamos según tus comentarios.",
+    "production_title": "3. Producción",
+    "production_description": "El modelo final se imprime en 3D con materiales de alta calidad y se pinta a mano.",
+    "materials_quality_title": "Materiales y Calidad",
+    "materials_quality_p1": "Utilizamos solo los mejores materiales para garantizar que tu figura personalizada sea duradera y se vea increíble. Nuestras impresoras 3D de alta resolución capturan cada detalle y nuestros artistas utilizan pinturas de primera calidad para un acabado vibrante y duradero.",
+    "materials_quality_p2": "Cada pieza se somete a un riguroso control de calidad para garantizar que cumpla con nuestros altos estándares y tus expectativas.",
+    "ready_to_create_title": "¿Listo para crear el tuyo?",
+    "ready_to_create_description": "Comencemos el viaje de crear tu figura personalizada única. Contáctanos para una cotización personalizada y hablemos de tu proyecto.",
+    "request_quote_button": "Solicitar una Cotización"
+  },
+  "hero": {
+    "title1": "Funko Personalizado",
+    "title2": "Estudio de Modelado 3D",
+    "subtitle": "Diseñando y creando figuras Funko Pop personalizadas con modelado e impresión 3D de precisión.",
+    "showcase_button": "Ver Galería",
+    "contact_button": "Contáctame",
+    "scroll_text": "Desliza hacia abajo"
+  },
+  "process": {
+    "section_title": "Proceso de Diseño",
+    "section_subtitle": "Mi enfoque estructurado para crear diseños industriales excepcionales",
+    "approach_title": "Mi Enfoque",
+    "step1_title": "Tú lo Imaginas, Nosotros lo Imprimimos",
+    "step1_description": "¿Tienes en mente un personaje, una idea de producto o un coleccionable? Diseñamos modelos 3D totalmente personalizados desde cero.",
+    "step2_title": "De lo Digital a lo Físico",
+    "step2_description": "Nos envías tu diseño y nosotros haremos un modelo 3D y lo imprimiremos para ti.",
+    "step3_title": "Servicio Personal, a tu Medida",
+    "step3_description": "Trabajarás directamente con un diseñador: comparte tus ideas, da tu opinión y observa cómo evoluciona tu concepto en 3D.",
+    "step4_title": "Pruebas y Refinamiento",
+    "step4_description": "Utilizamos impresoras y materiales de calidad profesional para obtener detalles limpios, una estructura sólida y acabados lisos, con plazos de entrega en los que puedes confiar.",
+    "step5_title": "Precios Claros, Sin Sorpresas",
+    "step5_description": "Obtén un presupuesto gratuito por adelantado: el precio se basa en la complejidad del diseño, el tamaño y el material. Ofrecemos un gran valor para piezas únicas.",
+    "methods_title": "Métodos y Herramientas de Diseño",
+    "method1_title": "Modelado 3D Personalizado",
+    "method1_description": "Técnicas avanzadas de modelado 3D personalizado que informan las decisiones de diseño e impulsan la innovación.",
+    "method2_title": "Impresión 3D de Alta Precisión",
+    "method2_description": "Técnicas avanzadas de impresión 3D de alta precisión que informan las decisiones de diseño e impulsan la innovación.",
+    "method3_title": "Colaboración y Revisiones con el Cliente",
+    "method3_description": "Técnicas avanzadas de colaboración y revisiones con el cliente que informan las decisiones de diseño e impulsan la innovación.",
+    "method4_title": "Selección de Materiales y Acabado",
+    "method4_description": "Técnicas avanzadas de selección de materiales y acabado que informan las decisiones de diseño e impulsan la innovación."
+  },
+  "about": {
+    "section_title": "Sobre Nosotros",
+    "section_subtitle": "Especializados en el diseño de Funko Pop personalizados y modelado 3D de alta calidad",
+    "bio_title": "Artista Funko y Modelador 3D con pasión por la cultura pop",
+    "bio_p1": "Con años de experiencia en modelado 3D y diseño de personajes, me especializo en la creación de figuras Funko Pop personalizadas que capturan personalidades únicas e íconos de la cultura pop.",
+    "bio_p2": "Mi proceso de diseño se centra en tres elementos clave: capturar la esencia del personaje, mantener el estilo característico de Funko y garantizar la calidad para la impresión. Cada figura personalizada comienza con un arte conceptual y termina con un modelo 3D pulido.",
+    "bio_p3": "Habiendo creado figuras para coleccionistas, celebridades y marcas, presto una atención meticulosa a los detalles en cada proyecto, asegurando que cada Funko Pop sea reconocible al instante y único.",
+    "competencies_title": "Competencias Clave",
+    "skill1_title": "Diseño de Personajes",
+    "skill1_description": "Capturando personalidades únicas e íconos de la cultura pop en el distintivo estilo Funko Pop.",
+    "skill2_title": "Escultura 3D",
+    "skill2_description": "Escultura digital con atención a las proporciones y rasgos estilizados característicos de Funko.",
+    "skill3_title": "Texturizado y Pintura",
+    "skill3_description": "Aplicando texturas y colores que coinciden con la estética distintiva de las figuras de vinilo de Funko.",
+    "skill4_title": "Impresión 3D",
+    "skill4_description": "Preparando modelos para una impresión 3D de alta calidad con soportes y orientación óptimos."
+  },
+  "comparison": {
+    "title": "Del Boceto a la Realidad",
+    "subtitle": "Sé testigo de la transformación de un concepto en un modelo 3D detallado",
+    "image_one_alt": "Imagen uno",
+    "image_two_alt": "Imagen dos"
+  },
+  "showcase": {
+    "title": "Visiones Creativas",
+    "subtitle": "Dando vida a las ideas a través del modelado y diseño 3D detallado",
+    "image1_alt": "Modelo de personaje 3D futurista",
+    "image2_alt": "Diseñador bocetando un modelo 3D en una tableta",
+    "image3_alt": "Impresora 3D creando un objeto complejo"
+  }
+}
