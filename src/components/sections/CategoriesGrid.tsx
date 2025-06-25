@@ -5,6 +5,7 @@ import { models as allModels } from "../models_data/models";
 import { GalleryImage } from "../ui/ImageGallery";
 import { useTranslation } from "react-i18next";
 import { TFunction } from "i18next";
+import { showcase1 } from "../../assets/images/images";
 
 export interface Category {
   id: number;
@@ -81,12 +82,12 @@ export function CategoriesGrid({
       title: t("categories.custom_funkos.title"),
       description: t("categories.custom_funkos.description"),
       modelPath: "/mama_chiki.glb",
-      imagePath: "../src/assets/images/sample_1.png",
+      imagePath: showcase1,
       detailModels: [allModels[2], allModels[9], allModels[3]],
       imageGallery: [
         {
           src: "/mom_carryingdog.png",
-          src2: "../src/assets/images/sample_1.png",
+          src2: showcase1,
           alt: "Custom Funko Pop 1",
         },
       ],
