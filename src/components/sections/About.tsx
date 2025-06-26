@@ -62,7 +62,7 @@ const About: React.FC = () => {
   };
 
   return (
-    <section id="about" className="py-24 bg-background">
+    <section id="about" className="py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-6">
         <SectionTitle
           title={t("about.section_title")}
@@ -98,7 +98,7 @@ const About: React.FC = () => {
                 alt="3D Modeling Software"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/1 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent" />
             </motion.div>
           </div>
 
