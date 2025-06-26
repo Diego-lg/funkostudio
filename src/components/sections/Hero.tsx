@@ -49,14 +49,16 @@ const Hero: React.FC = () => {
           className="max-w-3xl"
         >
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-text-primary">
-            <span className="font-mono text-accent">{t("hero.title1")}</span>{" "}
+            <span className="font-mono text-text-primary md:text-accent">
+              {t("hero.title1")}
+            </span>{" "}
             <br />
             {t("hero.title2")}
           </h1>
 
           <AnimatedText
             text={t("hero.subtitle")}
-            className="text-xl text-text-secondary mb-8"
+            className="text-xl text-text-primary md:text-text-secondary mb-8"
             delay={0.7}
           />
 
@@ -73,7 +75,7 @@ const Hero: React.FC = () => {
             <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 border border-text-secondary bg-transparent text-text-secondary hover:text-text-primary hover:border-text-primary transition-colors font-medium rounded-full"
+              className="px-8 py-3 border border-text-primary md:border-text-secondary bg-transparent text-text-primary md:text-text-secondary hover:text-text-primary hover:border-text-primary transition-colors font-medium rounded-full"
               onClick={() => scrollToSection("contact")}
             >
               {t("hero.contact_button")}
