@@ -8,7 +8,7 @@ import { Category } from "./components/sections/CategoriesGrid";
 import CategoryDetailView from "./components/sections/CategoryDetailView";
 import Loader from "./components/ui/Loader";
 import { useTranslation } from "react-i18next";
-
+import { Analytics } from "@vercel/analytics/next";
 const About = lazy(() => import("./components/sections/About"));
 const Process = lazy(() => import("./components/sections/Process"));
 const Contact = lazy(() => import("./components/sections/Contact"));
@@ -50,6 +50,7 @@ function App() {
               />
             ) : (
               <>
+                <Analytics />
                 <Hero />
 
                 <CategoriesGrid onCategoryClick={handleCategoryClick} />

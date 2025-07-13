@@ -10,12 +10,13 @@ i18n
   .init({
     supportedLngs: ["en", "es"],
     fallbackLng: "es",
+    lng: "es", // Set Spanish as the default language
     detection: {
       order: [
-        "path",
         "cookie",
-        "htmlTag",
         "localStorage",
+        "path",
+        "htmlTag",
         "navigator",
         "subdomain",
       ],
