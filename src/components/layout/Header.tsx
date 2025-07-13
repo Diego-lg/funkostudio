@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   const navItems = useMemo(
     () => [
       { id: "home", label: t("nav.home") },
-      { id: "portfolio", label: t("nav.showcase") },
+      { id: "showcase", label: t("nav.showcase") },
       { id: "comparison", label: t("nav.comparison") },
       { id: "process", label: t("nav.process") },
       { id: "about", label: t("nav.about") },

@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("portfolio")}
+                  onClick={() => scrollToSection("showcase")}
                   className="text-text-secondary hover:text-accent transition-colors"
                 >
                   Showcase

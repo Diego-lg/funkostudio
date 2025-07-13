@@ -8,7 +8,7 @@ import { Category } from "./components/sections/CategoriesGrid";
 import CategoryDetailView from "./components/sections/CategoryDetailView";
 import Loader from "./components/ui/Loader";
 import { useTranslation } from "react-i18next";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react"; // <-- Correct import for React
 const About = lazy(() => import("./components/sections/About"));
 const Process = lazy(() => import("./components/sections/Process"));
 const Contact = lazy(() => import("./components/sections/Contact"));
@@ -41,6 +41,7 @@ function App() {
     <ScrollProvider>
       <div className="bg-background text-text-primary min-h-screen">
         <Header />
+        <Analytics />
         <main>
           <Suspense fallback={<Loader />}>
             {selectedCategory ? (
@@ -50,7 +51,6 @@ function App() {
               />
             ) : (
               <>
-                <Analytics />
                 <Hero />
 
                 <CategoriesGrid onCategoryClick={handleCategoryClick} />
